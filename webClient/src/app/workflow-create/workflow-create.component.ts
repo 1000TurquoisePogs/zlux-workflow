@@ -16,7 +16,7 @@ import { ZosmfWorkflowService } from '../shared/zosmf-workflow-service';
 @Component({
   selector: 'workflow-create',
   templateUrl: './workflow-create.component.html',
-  styleUrls: ['./workflow-create.component.css'],
+  styleUrls: ['./workflow-create.component.css', '../css/workflow-common-styles.css'],
   providers: [],
   entryComponents: []
 })

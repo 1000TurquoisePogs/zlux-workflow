@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
   // tslint:disable-next-line:component-selector
   selector: 'workflow-popup-menu-separator',
   template: '',
-  styleUrls: [ './workflow-popup-menu-separator.component.css' ]
+  styleUrls: [ './workflow-popup-menu-separator.component.css', '../css/workflow-common-styles.css' ]
 })
 export class WorkflowPopupMenuSeparatorComponent {
 

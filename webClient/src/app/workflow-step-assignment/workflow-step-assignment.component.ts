@@ -25,7 +25,7 @@ import * as Rx from 'rxjs/Rx';
   // tslint:disable-next-line:component-selector
   selector: 'workflow-step-assignment',
   templateUrl: './workflow-step-assignment.component.html',
-  styleUrls: ['./workflow-step-assignment.component.css']
+  styleUrls: ['./workflow-step-assignment.component.css', '../css/workflow-common-styles.css']
 })
 export class WorkflowStepAssignmentComponent implements OnInit, OnChanges {
   @Input() step: WorkflowStep;

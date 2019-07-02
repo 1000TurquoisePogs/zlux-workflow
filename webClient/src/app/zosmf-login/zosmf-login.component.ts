@@ -20,7 +20,7 @@ import {logger} from '../shared/logger';
 @Component({
   selector: 'zosmf-login',
   templateUrl: './zosmf-login.component.html',
-  styleUrls: ['./zosmf-login.component.css']
+  styleUrls: ['./zosmf-login.component.css', '../css/workflow-common-styles.css']
 })
 export class ZosmfLoginComponent implements OnInit {
   @Output() loggedIn = new EventEmitter<void>();

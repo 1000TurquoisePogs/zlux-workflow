@@ -14,7 +14,7 @@ import { ConfirmationService } from '../shared/confirmation.service';
   // tslint:disable-next-line:component-selector
   selector: 'workflow-confirmation',
   templateUrl: './workflow-confirmation.component.html',
-  styleUrls: ['./workflow-confirmation.component.css']
+  styleUrls: ['./workflow-confirmation.component.css', '../css/workflow-common-styles.css']
 })
 export class WorkflowConfirmationComponent {
   constructor(public confirmationService: ConfirmationService) {
